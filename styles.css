@@ -1,0 +1,125 @@
+/*!
+ * Desafio técnico Reweb
+ * Filipe Bacof
+ * Perfil do Git Hub
+ * https://github.com/Filipe-Bacof
+ * Licensed under MIT
+ */
+
+/* General styles */
+body * {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 30%, rgba(11, 89, 0, 1) 100%);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+/* Content styles */
+.article {
+  max-width: 720px;
+  width: 100%;
+  margin: auto;
+  margin-top: 60px;
+  box-shadow: 3px 3px 3px rgba(36, 36, 36, 0.493);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.banner {
+  width: 100%;
+  height: 270px;
+  background-image: url("https://images.unsplash.com/photo-1509111760872-88f5becad074?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  transform: rotate(180deg);
+}
+
+.title {
+  width: 100%;
+  height: 50px;
+  color: #065506;
+  text-align: left;
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+
+/* List styles */
+.list-group {
+  box-shadow: 0;
+}
+
+.list-group-item {
+  border-bottom: none;
+  background-color: #efefef;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+
+.item {
+  display: flex;
+  border: none;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.item .item-picture {
+  width: 40%;
+}
+
+.item .item-content {
+  width: 75%;
+  padding-left: 16px;
+}
+
+.item .item-picture img {
+  width: 100%;
+}
+
+/* Card styles */
+.card {
+  background-color: #efefef;
+  border-radius: 0px;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  border-radius: 0;
+}
+
+.card:last-of-type {
+  border-bottom-right-radius: 16px;
+}
+
+.card-img {
+  width: 340px;
+  float: center;
+  margin: 10px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  float: right;
+  max-width: 500px;
+  margin-right: 10px;
+}
+
+.cards.row {
+  width: 100%;
+  align-itens: center;
+  margin: 0;
+}
+
+/* Changing Color of the Links */
+a {
+  color: #15a315 !important;
+}
